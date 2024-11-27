@@ -211,7 +211,7 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>The trade deadline will be set for the END of the week 11 games of the NFL season.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
@@ -221,46 +221,48 @@
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+        <p>We currently do not utilize vetos as part of the trade process. If league members would like to introduce this, please bring to the attention of the league commissioner to have it added as an agenda/vote item for the league offseason meeting (to be held during the week of the NFL DRAFT).</p>
     </div>
     
     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>Rolling Waiver wire system. Rolling waivers are continuous and the last person to waiver a player is placed last into the waiver priority. For every successful waiver claim, that team owner drops to the bottom of the order, while everyone else moves up one..</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
-    
+       
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <p>The draft order each year will be a linear draft (like the NFL DRAFT) and is based on the outcome of the post-season. This includes the winner and consolation/toilet bowl brackets. The team who takes the league title drafts 10th (last) in each round in the next season's draft while the team that places dead last after the post-season will be given the 1st draft pick slot of the next season's draft. As of November 2024, the consolation/toilet bowl outcome is under review for future seasons to make the consolation/toilet bowl even more purpose and enhance the competition. We are currently considering awarding the 1st draft pick slot to the winner of the consolation bracket. This approach aims to keep those teams not in the playoff bracket a reason to remain engaged and competitive.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <p>Champions League Fantasy Football does not employ rookie drafts.</p>
+    <p>Rookie players in the system during the offseason cannot be added to a team's roster and selected as one of the 4 keeper eligible players. Rookies are simply part of the general player draft pool.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <p>If a trade is being made during the draft, both parties must alert the commissioner so that they may pause the draft to allow for review of trade, approval/denial, announcement, and any extra time to negotiate the trade (if necessary). This type of in-draft trade is limited to 5 minutes total. Once the commissioner pauses the draft clock, they will also begin a 5 minute timer, announcing a time warning at the 1 minute, 30 second, and 10 second marks before time is up to all parties involved. If the parties involved cannot come to an agreement in that time, they are not allowed to re-initiate the in-draft trade process until a total of 2 complete rounds have completed. This is out of fairness to all league members participating in the draft./p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app. The scoring system will NEVER change without a majority league vote. 
+NOTE: League majority in the 10-team league is achieved when 6 of 10 teams vote in favor/not in favor of a measure. Split vote outcom (50/50) does not count as a majority and a re-vote may be requested if the votes are split down the middle.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>At the end of the season 4 teams will make the winner's bracket playoffs. The first round of playoffs will commence on the NFL's week 14. Each playoff matchup lasts 2 weeks with the team scoring the most total points between both weeks combined advancing to the League Championship round. This format applies to the League Championship format as well: the team with the most points after the completion of both weeks will be crowned the new League Champion!</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
     <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
+        <li>1. Total Points For/Scored during the regular season: the team with the most points scored over the course of the regular season will be decalred the winner of the tie-breaker.</li>
+        <li>If a tie remains, continue to #2...</li>
+        <li>2. Head-2-Head Record: Team with the most wins over the other team wins the tie-breaker.</li>
+        <li>If a tie remains, continue to #3...</li>
         <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
