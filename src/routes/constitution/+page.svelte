@@ -259,10 +259,8 @@ NOTE: League majority in the 10-team league is achieved when 6 of 10 teams vote 
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
     <ol>
-        <li>1. Total Points For/Scored during the regular season: the team with the most points scored over the course of the regular season will be decalred the winner of the tie-breaker.</li>
-        <li>If a tie remains, continue to #2...</li>
-        <li>2. Head-2-Head Record: Team with the most wins over the other team wins the tie-breaker.</li>
-        <li>If a tie remains, continue to #3...</li>
+        <li>Total Points For/Scored during the regular season: the team with the most points scored over the course of the regular season will be decalred the winner of the tie-breaker. If a tie remains, continue to #2...</li>
+        <li>Head-2-Head Record: Team with the most wins over the other team wins the tie-breaker. If a tie remains, continue to #3...</li>
         <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
